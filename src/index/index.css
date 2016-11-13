@@ -1,0 +1,16 @@
+
+.qq {
+  background: url("./img/sprite/qq.png");
+}
+
+.qq_hover {
+  background: url("./img/sprite/qq_hover.png");
+}
+
+.weibo {
+  background: url("./img/sprite/weibo.png");
+}
+
+.weibo_hover {
+  background: url("./img/sprite/weibo_hover.png");
+}

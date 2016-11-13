@@ -1,0 +1,15 @@
+.baidu {
+  background: url("./img/sprite/baidu.png");
+}
+
+.baidu_hover {
+  background: url("./img/sprite/baidu_hover.png");
+}
+
+.qq {
+  background: url("./img/sprite/qq.png");
+}
+
+.qq_hover {
+  background: url("./img/sprite/qq_hover.png");
+}
