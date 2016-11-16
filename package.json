@@ -1,16 +1,33 @@
 {
-  "name": "gulp-css-spritesmith-demo",
+  "name": "gulp-webpack-single-project",
   "version": "1.0.0",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "author": "cobish",
+  "blog": "http://cobish.github.io",
   "license": "ISC",
   "devDependencies": {
     "gulp": "^3.9.1",
-    "gulp-css-spritesmith": "0.0.5"
+    "gulp-autoprefixer": "^3.1.1",
+    "gulp-clean": "^0.3.2",
+    "gulp-css-spritesmith": "0.0.5",
+    "gulp-htmlmin": "^3.0.0",
+    "gulp-imagemin": "^3.1.1",
+    "gulp-include-html": "^1.0.11",
+    "gulp-load-plugins": "^1.4.0",
+    "gulp-newer": "^1.3.0",
+    "gulp-rev": "^7.1.2",
+    "gulp-rev-collector": "^1.0.5",
+    "gulp-sass": "^2.3.2",
+    "gulp-shell": "^0.5.2",
+    "gulp-sourcemaps": "^2.2.0",
+    "gulp-uglify": "^2.0.0",
+    "gulp-util": "^3.0.7",
+    "gulp-webpack": "^1.5.0",
+    "jshint": "^2.9.4",
+    "jshint-loader": "^0.8.3",
+    "run-sequence": "^1.2.2",
+    "webpack": "^1.13.3"
   },
-  "repository": {
-    "url": "https://github.com/cobish/gulp-webpack-single-project.git",
-    "type": "git"
+  "dependencies": {
+    "jquery": "1.11.1"
   }
 }
