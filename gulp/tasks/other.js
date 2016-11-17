@@ -18,45 +18,44 @@ module.exports = function (gulp, plugins, config, runSequence) {
     gulp.watch(config.src + '**/*.html', ['include']);
   });
 
-  // // 打包图片
-  // gulp.task('build:img', function(cb) {
-  //   runSequence(
-  //     'sass:tmp',
-  //     'copy:tmpImg',
-  //     'autoSprite',
-  //     'imagemin',
-  //     'rev:img',
-  //     cb
-  //   );
-  // });
+  // 打包图片
+  gulp.task('build:img', function(cb) {
+    runSequence(
+      'sass:tmp',
+      'copy:tmpImg',
+      'sprite',
+      'imagemin',
+      'rev:img',
+      cb
+    );
+  });
 
-  // // 打包css文件
-  // gulp.task('build:css', function(cb) {
-  //   runSequence(
-  //     'usemin:css',
-  //     'sass:dist',
-  //     'rev:css',
-  //     cb
-  //   );
-  // });
+  // 打包css文件
+  gulp.task('build:css', function(cb) {
+    runSequence(
+      'usemin:css',
+      'sass:dist',
+      'rev:css',
+      cb
+    );
+  });
 
-  // // 打包js文件
-  // gulp.task('build:js', function(cb) {
-  //   runSequence(
-  //     'webpack:build',
-  //     'uglify:libJS',
-  //     'rev:js',
-  //     cb
-  //   );
-  // });
+  // 打包js文件
+  gulp.task('build:js', function(cb) {
+    runSequence(
+      'webpack:build',
+      'rev:js',
+      cb
+    );
+  });
 
-  // // 打包html文件
-  // gulp.task('build:html', function(cb) {
-  //   runSequence(
-  //     'include',
-  //     'usemin:html',
-  //     'min:html',
-  //     cb
-  //   );
-  // });
+  // 打包html文件
+  gulp.task('build:html', function(cb) {
+    runSequence(
+      'include',
+      'usemin:html',
+      // 'min:html',
+      cb
+    );
+  });
 };

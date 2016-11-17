@@ -1,12 +1,29 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <title>index</title>
-  <link rel="stylesheet" type="text/css" href="./index.css">
-</head>
-<body>
+  <head>
+    <meta charset="utf-8">
+    <title>首页</title>
+
+    <link rel="stylesheet" type="text/css" href="../common/common.css" />
+    <link rel="stylesheet" type="text/css" href="../index/index.css" />
+
+  </head>
+  <body>
+    <!-- header -->
+    @@include('../common/html/header.html')
+
+    <!-- 表格 -->
+    @@include('./html/table.html')
+
+    <!-- 模板 -->
+    @@include('./html/template.html')
+
+    <!-- footer -->
+    @@include('../common/html/footer.html')
+  </body>
+
   <script type="text/javascript" src="../vendor.js"></script>
   <script type="text/javascript" src="../common.js"></script>
-  <script type="text/javascript" src="./index.js"></script>
-</body>
+  <script type="text/javascript" src="../index/index.js"></script>
+  
 </html>

@@ -1,12 +1,29 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <title>login</title>
-  <link rel="stylesheet" type="text/css" href="./index.css">
-</head>
-<body>
+  <head>
+    <meta charset="utf-8">
+    <title>登录</title>
+
+    <link rel="stylesheet" type="text/css" href="../common/common.css" />
+    <link rel="stylesheet" type="text/css" href="../login/index.css" />
+
+  </head>
+  <body>
+    <!-- header -->
+    @@include('../common/html/header.html')
+
+    <!-- 广告 -->
+    @@include('./html/ad.html')
+
+    <!-- 表单 -->
+    @@include('./html/form.html')
+
+    <!-- footer -->
+    @@include('../common/html/footer.html')
+  </body>
+
   <script type="text/javascript" src="../vendor.js"></script>
   <script type="text/javascript" src="../common.js"></script>
-  <script type="text/javascript" src="./index.js"></script>
-</body>
+  <script type="text/javascript" src="../login/index.js"></script>
+
 </html>

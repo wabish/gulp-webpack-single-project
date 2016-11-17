@@ -21,7 +21,6 @@
     "gulp-sourcemaps": "^2.2.0",
     "gulp-uglify": "^2.0.0",
     "gulp-util": "^3.0.7",
-    "gulp-webpack": "^1.5.0",
     "jshint": "^2.9.4",
     "jshint-loader": "^0.8.3",
     "run-sequence": "^1.2.2",
