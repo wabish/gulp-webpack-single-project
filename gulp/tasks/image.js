@@ -54,6 +54,4 @@ module.exports = function (gulp, plugins, config) {
       .pipe(plugins.rev.manifest())
       .pipe(gulp.dest(config.tmp + 'rev/img'));
   });
-
-
 };

@@ -28,5 +28,10 @@
   },
   "dependencies": {
     "jquery": "1.11.1"
+  },
+  "main": "index.js",
+  "repository": {
+    "url": "https://github.com/cobish/gulp-webpack-single-project.git",
+    "type": "git"
   }
 }
