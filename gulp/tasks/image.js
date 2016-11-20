@@ -1,16 +1,16 @@
 var fs = require('fs');
 
 module.exports = function (gulp, plugins, config) {
-  gulp.task('sprite', function() {
-    var dirs = fs.readdirSync(config.tmp);
+  var dirs = fs.readdirSync(config.src);
 
-    dirs = dirs.filter(function(dir) {
-      var stat = fs.statSync(config.tmp +'/'+ dir);
-      return stat.isDirectory();
-    });
+  dirs = dirs.filter(function(dir) {
+    var stat = fs.statSync(config.src +'/'+ dir);
+    return stat.isDirectory();
+  });
 
-    dirs.forEach(function(dir) {
-      gulp.src(config.tmp + dir +'/*.css')
+  dirs.forEach(function(dir, index) {
+    gulp.task('sprite_item_' + dir, function() {
+      return gulp.src(config.tmp + dir +'/*.css')
         .pipe(plugins.cssSpritesmith({
           imagepath: config.tmp + dir + '/img/sprite',
           spritedest: config.tmp + dir + '/img',
@@ -20,6 +20,11 @@ module.exports = function (gulp, plugins, config) {
         .pipe(gulp.dest('./'));
     });
   });
+
+  // 雪碧图
+  gulp.task('sprite', dirs.map(function(dir) {
+    return 'sprite_item_' + dir;
+  }));
 
   // 复制 src 图片到 dist
   gulp.task('copy:img', function() {

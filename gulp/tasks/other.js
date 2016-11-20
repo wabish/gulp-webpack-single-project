@@ -54,7 +54,6 @@ module.exports = function (gulp, plugins, config, runSequence) {
     runSequence(
       'include',
       'usemin:html',
-      // 'min:html',
       cb
     );
   });

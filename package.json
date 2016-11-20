@@ -9,7 +9,6 @@
     "gulp-autoprefixer": "^3.1.1",
     "gulp-clean": "^0.3.2",
     "gulp-css-spritesmith": "0.0.5",
-    "gulp-htmlmin": "^3.0.0",
     "gulp-imagemin": "^3.1.1",
     "gulp-include-html": "^1.0.11",
     "gulp-load-plugins": "^1.4.0",
@@ -28,10 +27,5 @@
   },
   "dependencies": {
     "jquery": "1.11.1"
-  },
-  "main": "index.js",
-  "repository": {
-    "url": "https://github.com/cobish/gulp-webpack-single-project.git",
-    "type": "git"
   }
 }
