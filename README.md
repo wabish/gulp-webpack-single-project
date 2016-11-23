@@ -1,6 +1,6 @@
 # gulp-webpack-single-project
 
-本示例是对 [gulp-webpack-project](https://github.com/cobish/gulp-webpack-project) 目录进行一个更改，若项目页面不多且展示页面比较多（例如官网），可以尝试一下该种目录结构。
+本示例是对 [gulp-webpack-project](https://github.com/cobish/gulp-webpack-project) 目录进行一个更改，采用的是一个页面就是一个开发目录的策略。若项目页面不多且展示页面比较多（例如官网），可以尝试一下该种目录结构。
 
 
 
