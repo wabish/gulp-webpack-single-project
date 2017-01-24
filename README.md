@@ -91,7 +91,7 @@ $ gulp build
 
 - html 文件引入其它静态资源请使用上级路径，只有这样 hash 后的静态文件名字才能替换成功，如：
 
-```html
+``` html
 <!-- css -->
 <link rel="stylesheet" href="../common/common.css" />
 
@@ -101,7 +101,7 @@ $ gulp build
 
 - css 入口文件的图片路径需使用上级路径，才可适用于图片合并，如在 index 目录下则需使用 ``../index/`` 路径：
 
-```css
+``` sass
 // 需要雪碧图的图片路径
 $spriteImgPath: "../index/img/sprite/";
 
