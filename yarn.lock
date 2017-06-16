@@ -334,22 +334,9 @@ buffer@^4.9.0:
     ieee754 "^1.1.4"
     isarray "^1.0.0"
 
-bufferstreams@^1.1.0:
-  version "1.1.1"
-  resolved "https://registry.yarnpkg.com/bufferstreams/-/bufferstreams-1.1.1.tgz#0161373060ac5988eff99058731114f6e195d51e"
-  dependencies:
-    readable-stream "^2.0.2"
-
 builtin-modules@^1.0.0:
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/builtin-modules/-/builtin-modules-1.1.1.tgz#270f076c5a72c02f5b65a47df94c5fe3a278892f"
-
-camel-case@^3.0.0:
-  version "3.0.0"
-  resolved "https://registry.yarnpkg.com/camel-case/-/camel-case-3.0.0.tgz#ca3c3688a4e9cf3a4cda777dc4dcbc713249cf73"
-  dependencies:
-    no-case "^2.2.0"
-    upper-case "^1.1.1"
 
 camelcase-keys@^2.0.0:
   version "2.1.0"
@@ -418,29 +405,6 @@ chalk@^0.5.0:
     strip-ansi "^0.3.0"
     supports-color "^0.2.0"
 
-change-case@3.0.x:
-  version "3.0.0"
-  resolved "https://registry.yarnpkg.com/change-case/-/change-case-3.0.0.tgz#6c9c8e35f8790870a82b6b0745be8c3cbef9b081"
-  dependencies:
-    camel-case "^3.0.0"
-    constant-case "^2.0.0"
-    dot-case "^2.1.0"
-    header-case "^1.0.0"
-    is-lower-case "^1.1.0"
-    is-upper-case "^1.1.0"
-    lower-case "^1.1.1"
-    lower-case-first "^1.0.0"
-    no-case "^2.2.0"
-    param-case "^2.1.0"
-    pascal-case "^2.0.0"
-    path-case "^2.1.0"
-    sentence-case "^2.1.0"
-    snake-case "^2.1.0"
-    swap-case "^1.1.0"
-    title-case "^2.1.0"
-    upper-case "^1.1.1"
-    upper-case-first "^1.1.0"
-
 chokidar@^1.0.0:
   version "1.6.1"
   resolved "https://registry.yarnpkg.com/chokidar/-/chokidar-1.6.1.tgz#2f4447ab5e96e50fb3d789fd90d4c72e0e4c70c2"
@@ -461,13 +425,6 @@ clap@^1.0.9:
   resolved "http://registry.npm.taobao.org/clap/download/clap-1.1.1.tgz#a8a93e0bfb7581ac199c4f001a5525a724ce696d"
   dependencies:
     chalk "^1.1.3"
-
-clean-css@3.4.x:
-  version "3.4.21"
-  resolved "https://registry.yarnpkg.com/clean-css/-/clean-css-3.4.21.tgz#2101d5dbd19d63dbc16a75ebd570e7c33948f65b"
-  dependencies:
-    commander "2.8.x"
-    source-map "0.4.x"
 
 cli@~1.0.0:
   version "1.0.1"
@@ -528,13 +485,13 @@ combined-stream@^1.0.5, combined-stream@~1.0.5:
   dependencies:
     delayed-stream "~1.0.0"
 
-commander@^2.9.0, commander@2.9.x:
+commander@^2.9.0:
   version "2.9.0"
   resolved "https://registry.yarnpkg.com/commander/-/commander-2.9.0.tgz#9c99094176e12240cb22d6c5146098400fe0f7d4"
   dependencies:
     graceful-readlink ">= 1.0.0"
 
-commander@~2.8.1, commander@2.8.x:
+commander@~2.8.1:
   version "2.8.1"
   resolved "https://registry.yarnpkg.com/commander/-/commander-2.8.1.tgz#06be367febfda0c330aa1e2a072d3dc9762425d4"
   dependencies:
@@ -573,13 +530,6 @@ console-control-strings@^1.0.0, console-control-strings@~1.1.0:
 console-stream@^0.1.1:
   version "0.1.1"
   resolved "http://registry.npm.taobao.org/console-stream/download/console-stream-0.1.1.tgz#a095fe07b20465955f2fafd28b5d72bccd949d44"
-
-constant-case@^2.0.0:
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/constant-case/-/constant-case-2.0.0.tgz#4175764d389d3fa9c8ecd29186ed6005243b6a46"
-  dependencies:
-    snake-case "^2.1.0"
-    upper-case "^1.1.1"
 
 constants-browserify@0.0.1:
   version "0.0.1"
@@ -842,12 +792,6 @@ domutils@1.5:
   dependencies:
     dom-serializer "0"
     domelementtype "1"
-
-dot-case@^2.1.0:
-  version "2.1.0"
-  resolved "https://registry.yarnpkg.com/dot-case/-/dot-case-2.1.0.tgz#4b43dd0d7403c34cb645424add397e80bfe85ca6"
-  dependencies:
-    no-case "^2.2.0"
 
 download@^4.0.0, download@^4.1.2:
   version "4.4.3"
@@ -1543,17 +1487,6 @@ gulp-decompress@^1.2.0:
     gulp-util "^3.0.1"
     readable-stream "^2.0.2"
 
-gulp-htmlmin@^3.0.0:
-  version "3.0.0"
-  resolved "https://registry.yarnpkg.com/gulp-htmlmin/-/gulp-htmlmin-3.0.0.tgz#19ea8002d1231d6b1f18a12d20f2a66a77770fb3"
-  dependencies:
-    bufferstreams "^1.1.0"
-    gulp-util "^3.0.7"
-    html-minifier "^3.0.3"
-    object-assign "^4.0.1"
-    readable-stream "^2.0.2"
-    tryit "^1.0.1"
-
 gulp-imagemin:
   version "3.1.1"
   resolved "http://registry.npm.taobao.org/gulp-imagemin/download/gulp-imagemin-3.1.1.tgz#05029523228114a0dfb19e72b114c5e25c455f20"
@@ -1787,17 +1720,6 @@ hawk@~3.1.3:
     hoek "2.x.x"
     sntp "1.x.x"
 
-he@1.1.x:
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/he/-/he-1.1.0.tgz#29319d49beec13a9b1f3c4f9b2a6dde4859bb2a7"
-
-header-case@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/header-case/-/header-case-1.0.0.tgz#d9e335909505d56051ec16a0106821889e910781"
-  dependencies:
-    no-case "^2.2.0"
-    upper-case "^1.1.3"
-
 hoek@2.x.x:
   version "2.16.3"
   resolved "https://registry.yarnpkg.com/hoek/-/hoek-2.16.3.tgz#20bb7403d3cea398e91dc4710a8ff1b8274a25ed"
@@ -1809,18 +1731,6 @@ hosted-git-info@^2.1.4:
 html-comment-regex@^1.1.0:
   version "1.1.1"
   resolved "http://registry.npm.taobao.org/html-comment-regex/download/html-comment-regex-1.1.1.tgz#668b93776eaae55ebde8f3ad464b307a4963625e"
-
-html-minifier@^3.0.3:
-  version "3.1.1"
-  resolved "https://registry.yarnpkg.com/html-minifier/-/html-minifier-3.1.1.tgz#73bd0600fc9d68f536b13a788360245b6d76eb9c"
-  dependencies:
-    change-case "3.0.x"
-    clean-css "3.4.x"
-    commander "2.9.x"
-    he "1.1.x"
-    ncname "1.0.x"
-    relateurl "0.2.x"
-    uglify-js "2.7.x"
 
 htmlparser2@3.8.x:
   version "3.8.3"
@@ -2053,12 +1963,6 @@ is-jpg@^1.0.0:
   version "1.0.0"
   resolved "http://registry.npm.taobao.org/is-jpg/download/is-jpg-1.0.0.tgz#2959c17e73430db38264da75b90dd54f2d86da1c"
 
-is-lower-case@^1.1.0:
-  version "1.1.3"
-  resolved "https://registry.yarnpkg.com/is-lower-case/-/is-lower-case-1.1.3.tgz#7e147be4768dc466db3bfb21cc60b31e6ad69393"
-  dependencies:
-    lower-case "^1.1.0"
-
 is-my-json-valid@^2.12.4:
   version "2.15.0"
   resolved "https://registry.yarnpkg.com/is-my-json-valid/-/is-my-json-valid-2.15.0.tgz#936edda3ca3c211fd98f3b2d3e08da43f7b2915b"
@@ -2143,12 +2047,6 @@ is-unc-path@^0.1.1:
   resolved "https://registry.yarnpkg.com/is-unc-path/-/is-unc-path-0.1.1.tgz#ab2533d77ad733561124c3dc0f5cd8b90054c86b"
   dependencies:
     unc-path-regex "^0.1.0"
-
-is-upper-case@^1.1.0:
-  version "1.1.2"
-  resolved "https://registry.yarnpkg.com/is-upper-case/-/is-upper-case-1.1.2.tgz#8d0b1fa7e7933a1e58483600ec7d9661cbaf756f"
-  dependencies:
-    upper-case "^1.1.0"
 
 is-url@^1.2.0:
   version "1.2.2"
@@ -2611,16 +2509,6 @@ loud-rejection@^1.0.0:
     currently-unhandled "^0.4.1"
     signal-exit "^3.0.0"
 
-lower-case-first@^1.0.0:
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/lower-case-first/-/lower-case-first-1.0.2.tgz#e5da7c26f29a7073be02d52bac9980e5922adfa1"
-  dependencies:
-    lower-case "^1.1.2"
-
-lower-case@^1.1.0, lower-case@^1.1.1, lower-case@^1.1.2:
-  version "1.1.3"
-  resolved "https://registry.yarnpkg.com/lower-case/-/lower-case-1.1.3.tgz#c92393d976793eee5ba4edb583cf8eae35bd9bfb"
-
 lowercase-keys@^1.0.0:
   version "1.0.0"
   resolved "http://registry.npm.taobao.org/lowercase-keys/download/lowercase-keys-1.0.0.tgz#4e3366b39e7f5457e35f1324bdf6f88d0bfc7306"
@@ -2794,12 +2682,6 @@ natives@^1.1.0:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/natives/-/natives-1.1.0.tgz#e9ff841418a6b2ec7a495e939984f78f163e6e31"
 
-ncname@1.0.x:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/ncname/-/ncname-1.0.0.tgz#5b57ad18b1ca092864ef62b0b1ed8194f383b71c"
-  dependencies:
-    xml-char-classes "^1.0.0"
-
 ndarray-pack@^1.1.1:
   version "1.2.1"
   resolved "https://registry.yarnpkg.com/ndarray-pack/-/ndarray-pack-1.2.1.tgz#8caebeaaa24d5ecf70ff86020637977da8ee585a"
@@ -2813,12 +2695,6 @@ ndarray@^1.0.13, ndarray@~1.0.15:
   dependencies:
     iota-array "^1.0.0"
     is-buffer "^1.0.2"
-
-no-case@^2.2.0:
-  version "2.3.0"
-  resolved "https://registry.yarnpkg.com/no-case/-/no-case-2.3.0.tgz#ca2825ccb76b18e6f79d573dcfbf1eace33dd164"
-  dependencies:
-    lower-case "^1.1.1"
 
 node-bitmap@0.0.1:
   version "0.0.1"
@@ -3091,12 +2967,6 @@ pako@~0.2.0:
   version "0.2.9"
   resolved "https://registry.yarnpkg.com/pako/-/pako-0.2.9.tgz#f3f7522f4ef782348da8161bad9ecfd51bf83a75"
 
-param-case@^2.1.0:
-  version "2.1.0"
-  resolved "https://registry.yarnpkg.com/param-case/-/param-case-2.1.0.tgz#2619f90fd6c829ed0b958f1c84ed03a745a6d70a"
-  dependencies:
-    no-case "^2.2.0"
-
 parse-data-uri@^0.2.0:
   version "0.2.0"
   resolved "https://registry.yarnpkg.com/parse-data-uri/-/parse-data-uri-0.2.0.tgz#bf04d851dd5c87b0ab238e5d01ace494b604b4c9"
@@ -3126,13 +2996,6 @@ parse-json@^2.1.0, parse-json@^2.2.0:
   dependencies:
     error-ex "^1.2.0"
 
-pascal-case@^2.0.0:
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/pascal-case/-/pascal-case-2.0.0.tgz#39c248bde5a8dc02d5160696bdb01e044d016ee1"
-  dependencies:
-    camel-case "^3.0.0"
-    upper-case-first "^1.1.0"
-
 path-array@^1.0.0:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/path-array/-/path-array-1.0.1.tgz#7e2f0f35f07a2015122b868b7eac0eb2c4fec271"
@@ -3142,12 +3005,6 @@ path-array@^1.0.0:
 path-browserify@0.0.0:
   version "0.0.0"
   resolved "https://registry.yarnpkg.com/path-browserify/-/path-browserify-0.0.0.tgz#a0b870729aae214005b7d5032ec2cbbb0fb4451a"
-
-path-case@^2.1.0:
-  version "2.1.0"
-  resolved "https://registry.yarnpkg.com/path-case/-/path-case-2.1.0.tgz#5ac491de642936e5dfe0e18d16c461b8be8cf073"
-  dependencies:
-    no-case "^2.2.0"
 
 path-dirname@^1.0.0:
   version "1.0.2"
@@ -3447,10 +3304,6 @@ regex-cache@^0.4.2:
     is-equal-shallow "^0.1.3"
     is-primitive "^2.0.0"
 
-relateurl@0.2.x:
-  version "0.2.7"
-  resolved "https://registry.yarnpkg.com/relateurl/-/relateurl-0.2.7.tgz#54dbf377e51440aca90a4cd274600d3ff2d888a9"
-
 repeat-element@^1.1.2:
   version "1.1.2"
   resolved "https://registry.yarnpkg.com/repeat-element/-/repeat-element-1.1.2.tgz#ef089a178d1483baae4d93eb98b4f9e4e11d990a"
@@ -3596,13 +3449,6 @@ semver@^5.3.0, semver@~5.3.0, "semver@2 || 3 || 4 || 5", "semver@2.x || 3.x || 4
   version "5.3.0"
   resolved "https://registry.yarnpkg.com/semver/-/semver-5.3.0.tgz#9b2ce5d3de02d17c6012ad326aa6b4d0cf54f94f"
 
-sentence-case@^2.1.0:
-  version "2.1.0"
-  resolved "https://registry.yarnpkg.com/sentence-case/-/sentence-case-2.1.0.tgz#d592fbed457fd1a59e3af0ee17e99f6fd70d7efd"
-  dependencies:
-    no-case "^2.2.0"
-    upper-case-first "^1.1.2"
-
 sequencify@~0.0.7:
   version "0.0.7"
   resolved "https://registry.yarnpkg.com/sequencify/-/sequencify-0.0.7.tgz#90cff19d02e07027fd767f5ead3e7b95d1e7380c"
@@ -3630,12 +3476,6 @@ sigmund@~1.0.0:
 signal-exit@^3.0.0:
   version "3.0.1"
   resolved "https://registry.yarnpkg.com/signal-exit/-/signal-exit-3.0.1.tgz#5a4c884992b63a7acd9badb7894c3ee9cfccad81"
-
-snake-case@^2.1.0:
-  version "2.1.0"
-  resolved "https://registry.yarnpkg.com/snake-case/-/snake-case-2.1.0.tgz#41bdb1b73f30ec66a04d4e2cad1b76387d4d6d9f"
-  dependencies:
-    no-case "^2.2.0"
 
 sntp@1.x.x:
   version "1.0.9"
@@ -3676,7 +3516,7 @@ source-map@^0.5.1, source-map@^0.5.3, source-map@^0.5.6, source-map@~0.5.1, sour
   version "0.5.6"
   resolved "https://registry.yarnpkg.com/source-map/-/source-map-0.5.6.tgz#75ce38f52bf0733c5a7f0c118d81334a2bb5f412"
 
-source-map@~0.4.1, source-map@0.4.x:
+source-map@~0.4.1:
   version "0.4.4"
   resolved "https://registry.yarnpkg.com/source-map/-/source-map-0.4.4.tgz#eba4f5da9c0dc999de68032d8b4f76173652036b"
   dependencies:
@@ -3880,13 +3720,6 @@ svgo@^0.7.0:
     sax "~1.2.1"
     whet.extend "~0.9.9"
 
-swap-case@^1.1.0:
-  version "1.1.2"
-  resolved "https://registry.yarnpkg.com/swap-case/-/swap-case-1.1.2.tgz#c39203a4587385fad3c850a0bd1bcafa081974e3"
-  dependencies:
-    lower-case "^1.1.1"
-    upper-case "^1.1.1"
-
 tapable@^0.1.8, tapable@~0.1.8:
   version "0.1.10"
   resolved "https://registry.yarnpkg.com/tapable/-/tapable-0.1.10.tgz#29c35707c2b70e50d07482b5d202e8ed446dafd4"
@@ -3993,13 +3826,6 @@ timers-browserify@^1.0.1:
   dependencies:
     process "~0.11.0"
 
-title-case@^2.1.0:
-  version "2.1.0"
-  resolved "https://registry.yarnpkg.com/title-case/-/title-case-2.1.0.tgz#c68ccb4232079ded64f94b91b4941ade91391979"
-  dependencies:
-    no-case "^2.2.0"
-    upper-case "^1.0.3"
-
 to-absolute-glob@^0.1.1:
   version "0.1.1"
   resolved "http://registry.npm.taobao.org/to-absolute-glob/download/to-absolute-glob-0.1.1.tgz#1cdfa472a9ef50c239ee66999b662ca0eb39937f"
@@ -4022,10 +3848,6 @@ trim-repeated@^1.0.0:
   dependencies:
     escape-string-regexp "^1.0.2"
 
-tryit@^1.0.1:
-  version "1.0.3"
-  resolved "https://registry.yarnpkg.com/tryit/-/tryit-1.0.3.tgz#393be730a9446fd1ead6da59a014308f36c289cb"
-
 tty-browserify@0.0.0:
   version "0.0.0"
   resolved "https://registry.yarnpkg.com/tty-browserify/-/tty-browserify-0.0.0.tgz#a157ba402da24e9bf957f9aa69d524eed42901a6"
@@ -4042,7 +3864,7 @@ typedarray@~0.0.5:
   version "0.0.6"
   resolved "https://registry.yarnpkg.com/typedarray/-/typedarray-0.0.6.tgz#867ac74e3864187b1d3d47d996a78ec5c8830777"
 
-uglify-js@~2.7.3, uglify-js@2.7.x:
+uglify-js@~2.7.3:
   version "2.7.4"
   resolved "https://registry.yarnpkg.com/uglify-js/-/uglify-js-2.7.4.tgz#a295a0de12b6a650c031c40deb0dc40b14568bd2"
   dependencies:
@@ -4098,16 +3920,6 @@ unique-stream@^2.0.2:
 unzip-response@^1.0.2:
   version "1.0.2"
   resolved "http://registry.npm.taobao.org/unzip-response/download/unzip-response-1.0.2.tgz#b984f0877fc0a89c2c773cc1ef7b5b232b5b06fe"
-
-upper-case-first@^1.1.0, upper-case-first@^1.1.2:
-  version "1.1.2"
-  resolved "https://registry.yarnpkg.com/upper-case-first/-/upper-case-first-1.1.2.tgz#5d79bedcff14419518fd2edb0a0507c9b6859115"
-  dependencies:
-    upper-case "^1.1.1"
-
-upper-case@^1.0.3, upper-case@^1.1.0, upper-case@^1.1.1, upper-case@^1.1.3:
-  version "1.1.3"
-  resolved "https://registry.yarnpkg.com/upper-case/-/upper-case-1.1.3.tgz#f6b4501c2ec4cdd26ba78be7222961de77621598"
 
 urix@^0.1.0, urix@~0.1.0:
   version "0.1.0"
@@ -4357,10 +4169,6 @@ wrap-fn@^0.1.0:
 wrappy@1:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/wrappy/-/wrappy-1.0.2.tgz#b5243d8f3ec1aa35f1364605bc0d1036e30ab69f"
-
-xml-char-classes@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/xml-char-classes/-/xml-char-classes-1.0.0.tgz#64657848a20ffc5df583a42ad8a277b4512bbc4d"
 
 xtend@^4.0.0, "xtend@>=4.0.0 <4.1.0-0", xtend@~4.0.0:
   version "4.0.1"

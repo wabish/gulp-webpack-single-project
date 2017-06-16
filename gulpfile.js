@@ -33,7 +33,6 @@ gulp.task('help',function () {
 // 开发监控，处理文件不包括 js 文件
 gulp.task('dev', function(cb) {
   runSequence(
-    ['clean:dist', 'clean:tmp'],
     ['copy:img', 'sass', 'include'],
     'watch',
     cb
@@ -41,7 +40,7 @@ gulp.task('dev', function(cb) {
 });
 
 // 开发监控
-gulp.task('start', plugins.shell.task([
+gulp.task('start', ['clean:dist', 'clean:tmp'], plugins.shell.task([
   'concurrently "gulp dev" "gulp webpack"'
 ]));
 
