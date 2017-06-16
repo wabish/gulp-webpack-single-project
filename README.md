@@ -59,28 +59,28 @@ $ gulp build
 └─ public/
 	 ├─ dist/                                            # 打包生成的目录，用于上线
 	 ├─ gulp/                                            # gulp配置目录
-	 |	 ├─ tasks/                                       # gulp任务配置目录
-	 |	 |	  ├─ images.js                               # 图片配置
-	 |	 |	  ├─ other.js                                # 其它配置
-	 |	 |	  ├─ script.js                               # 脚本配置
-	 |	 |	  ├─ style.js                                # 样式配置
-	 |	 |	  └─ view.js                                 # 页面配置
+	 |   ├─ tasks/                                       # gulp任务配置目录
+	 |   |	  ├─ images.js                               # 图片配置
+	 |   |	  ├─ other.js                                # 其它配置
+	 |   |	  ├─ script.js                               # 脚本配置
+	 |   |	  ├─ style.js                                # 样式配置
+	 |   |	  └─ view.js                                 # 页面配置
 	 |   ├─ config.js                                    # webpack配置文件
 	 |   ├─ webpack.config.js                            # PC端开发配置文件
 	 |   └─ webpack.production.config.js                 # PC端上线配置文件
 	 ├─ node_modules/                                    # node依赖包
 	 ├─ src/                                             # 开发目录
-	 |	 ├─ index/                                       # 首页开发目录
-	 |	 |	  ├─ css/                                    # 样式目录
-	 |	 |	  ├─ html/                                   # 页面目录
-	 |	 |	  ├─ img/                                    # 图片目录
+	 |   ├─ index/                                       # 首页开发目录
+	 |   |	  ├─ css/                                    # 样式目录
+	 |   |	  ├─ html/                                   # 页面目录
+	 |   |	  ├─ img/                                    # 图片目录
 	 |   |    |   ├─ single/                             # 单张图片目录
 	 |   |    |   └─ sprite/                             # 雪碧图目录
-	 |	 |	  ├─ js/                                     # 脚本目录
-	 |	 |	  ├─ index.html                              # 入口文件
-	 | 	 |	  ├─ index.js                                # 入口脚本
-	 | 	 |	  └─ index.scss                              # 入口样式
-	 | 	 └─ ...                                          # 其它页面开发目录
+	 |   |	  ├─ js/                                     # 脚本目录
+	 |   |	  ├─ index.html                              # 入口文件
+	 |   |	  ├─ index.js                                # 入口脚本
+	 |   |	  └─ index.scss                              # 入口样式
+	 |   └─ ...                                          # 其它页面开发目录
 	 ├─ gulpfile.js                                      # gulp入口配置文件
 	 ├─ package.json                                     # npm包管理文件
 	 ├─ README.md                                        # 文档
